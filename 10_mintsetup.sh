@@ -1,15 +1,14 @@
 #!/bin/sh
 
 sudo apt-get install -y \
-	git \
-	texlive-full \
+	htop\
 	golang \
 	ctags \
 	ding \
+	trans-de-en\
+	gparted\
 	usbip 
 
-#### OH-MY-ZSH
-Sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 ###Struktur
 mkdir /home/$USER/work
