@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo apt-get install -y \
-	zsh git tmux yakuake \
+	git \
 	texlive-full \
 	golang \
 	ctags \

@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo apt-get install -y
+	git
+
 ######CONFIG
 mkdir -p /home/$USER/cfg
 cd ~
