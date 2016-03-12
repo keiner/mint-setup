@@ -1,7 +1,9 @@
-#!/bin/sh #### VIM install sudo apt-get install -y
-	vim \ vim-latexsuite \
-	vim-addon-manager \
-	vim-youcompleteme \
+#!/bin/sh #### VIM install 
+sudo apt-get install -y\
+	vim\
+	vim-latexsuite\
+	vim-addon-manager\
+	vim-youcompleteme\
 	texlive-full
 
 vim-addons install latex-suite
