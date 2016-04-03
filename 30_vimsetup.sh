@@ -13,7 +13,7 @@ vim-addons install youcompleteme
 mkdir -p ~/.vim/bundle
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/scrooloose/nerdcommenter.gi
+git clone https://github.com/scrooloose/nerdcommenter.git
 git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/majutsushi/tagbar.git
 
