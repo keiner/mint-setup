@@ -4,6 +4,6 @@
 
 ### Via wget
 ``` 
-wget -O - https://github.com/keiner/mint-setup/blob/master/00_git_config.sh| bash
-wget -O - https://github.com/keiner/mint-setup/blob/master/10_zsh.sh | bash
+bash <(wget https://raw.githubusercontent.com/keiner/mint-setup/master/00_git_config.sh -qO-)
+bash <(wget https://raw.githubusercontent.com/keiner/mint-setup/master/10_zsh.sh -qO)
 ```
