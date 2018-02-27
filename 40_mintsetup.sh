@@ -1,12 +1,10 @@
 #!/bin/sh
 
 sudo apt-get install -y \
-	htop\
 	#golang \
 	ctags \
 	ding \
 	trans-de-en\
-	gparted\
 	#usbip 
 
 
