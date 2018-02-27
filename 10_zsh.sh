@@ -2,7 +2,7 @@
 
 sudo apt-get install -y \
 	zsh \
-	yakuake \
+	guake\
 	tmux
 
 ###OH-MY-ZSH
