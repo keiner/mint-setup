@@ -7,5 +7,7 @@ sudo apt-get install -y \
 	curl\
 	htop\
 	gparted\
+	inxi\
+	vlc\
 	git
 
