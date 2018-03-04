@@ -8,9 +8,10 @@ do
 				vim\
 				vim-addon-manager\
 				vim-youcompleteme
+
 				ln -f -s /home/$USER/cfg/.vimrc ~/.vimrc
 		;;
-		"vim plugins"
+		"vim plugins")
 				vim-addons install latex-suite
 				vim-addons install youcompleteme
 
@@ -22,11 +23,10 @@ do
 				git clone git://github.com/altercation/vim-colors-solarized.git
 				git clone https://github.com/majutsushi/tagbar.git
 		;;
-		"install latex"
+		"install latex")
 			sudo apt-get install-y\
 				texlive-full\
 				vim- latexsuite
-
 
 esac
 done
