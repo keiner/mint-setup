@@ -1,9 +1,9 @@
 #!/bin/sh #### VIM install 
-sudo apt-get install -y\
-	vim\
-	vim-latexsuite\
-	vim-addon-manager\
-	vim-youcompleteme\
+sudo apt install -y \
+	vim \
+	vim-latexsuite \
+	vim-addon-manager \
+	vim-youcompleteme \
 	texlive-full
 
 vim-addons install latex-suite
@@ -16,5 +16,3 @@ git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/scrooloose/nerdcommenter.git
 git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/majutsushi/tagbar.git
-
-

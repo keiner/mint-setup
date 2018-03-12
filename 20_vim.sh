@@ -4,16 +4,17 @@ select aktion in "install vim" "install latex" "vim plugins"
 do
 	case $aktion in
 		"install vim")
-			sudo apt-get install -y\
-				vim\
-				vim-addon-manager\
+			sudo apt-get install -y \
+				vim \
+				vim-addon-manager \
 				vim-youcompleteme
 
 				ln -f -s /home/$USER/cfg/.vimrc ~/.vimrc
 		;;
 		"vim plugins")
-				vim-addons install latex-suite
-				vim-addons install youcompleteme
+				vim-addons install \
+					latex-suite \
+					youcompleteme
 
 				###VIM Plugins
 				mkdir -p ~/.vim/bundle
@@ -24,10 +25,10 @@ do
 				git clone https://github.com/majutsushi/tagbar.git
 		;;
 		"install latex")
-			sudo apt-get install-y\
-				texlive-full\
-				vim- latexsuite
-
-esac
+			sudo apt install -y \
+				texlive-full \
+				vim-latexsuite
+		;;	
+	esac
 done
 

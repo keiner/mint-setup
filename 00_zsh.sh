@@ -1,13 +1,13 @@
 #!/bin/sh
 
-sudo apt-get install -y \
+sudo apt install -y \
 	zsh \
-	guake\
-	tmux\
-	curl\
-	htop\
-	gparted\
-	inxi\
-	vlc\
+	guake \
+	tmux \
+	curl \
+	htop \
+	gparted \
+	inxi \
+	vlc \
 	git
 

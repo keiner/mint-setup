@@ -1,10 +1,10 @@
 #!/bin/sh
 
-sudo apt-get install -y \
+sudo apt install -y \
 	#golang \
 	ctags \
 	ding \
-	trans-de-en\
+	trans-de-en
 	#usbip 
 
 

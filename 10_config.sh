@@ -3,7 +3,6 @@
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ###allow shutdown
 sudo chmod +s /sbin/shutdown 
-sudo chmod +s /sbin/reboot
 ###make it zsh :)
 sudo chsh -s /bin/zsh
 ###make guake autostart
